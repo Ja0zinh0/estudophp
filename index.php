@@ -3,26 +3,27 @@
 <!-- o nome do arquivo sempre tem que ser index -->
 <!-- o php pode ser trabalhado junto com o html -->
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP</title>
-</head>
-<body>
-    <table border="1"width="200px">
-        <tr>
-            <td>
-                <?php
-                    echo"Primeira aula  <br> ";
-                    echo "curso de PHP";
-                ?>
+<?php
 
-            </td>
-        </tr>
-    </table>
+    echo $valor = "alessandro<br>";
+    echo $valor = 10;
+
+    $valor = "Alessandro"; //para fazer uma string 
+    $valor = 10; echo "<br>"; //para fazer uma variavel inteira
+
+    echo $valor = "joão "; echo "<br>";// para imprimir na tela a variavel
+
+    //operações aritimeticas 
+    $valor1 = 20;
+    $valor2 = 10;
+    $soma = $valor1 + $valor2;
+    $sub = $valor1 - $valor2;
+    $divisao = $valor2 / $valor1;
+
+    echo "O valor da soma de" .$valor1. "+" .$valor2. "=" .$soma;echo "<br>"; // para concatenar e necessario colocar um .antes da variavel 
     
-</body>
-</html>
+    echo "O valor da subtração de" .$valor1. "-" .$valor2. "=" .$soma; echo "<br>";
+    echo "o valor da divisão de " .$valor1. "/" .$valor2. "=" .$divisao;
+
+
+?>
