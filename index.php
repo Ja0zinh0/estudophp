@@ -20,7 +20,7 @@
     $sub = $valor1 - $valor2;
     $divisao = $valor2 / $valor1;
 
-    echo "O valor da soma de" .$valor1. "+" .$valor2. "=" .$soma;echo "<br>"; // para concatenar e necessario colocar um .antes da variavel 
+    echo "O valor da soma de" .$valor1. "+" .$valor2. "=" .$soma;echo "<br>"; // para concatenar e necessario colocar um . na variavel 
     
     echo "O valor da subtração de" .$valor1. "-" .$valor2. "=" .$soma; echo "<br>";
     echo "o valor da divisão de " .$valor1. "/" .$valor2. "=" .$divisao;
