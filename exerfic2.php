@@ -1,8 +1,8 @@
 <?php
-$sexo = "masculino";
+$sexo = 1;
 $altura = 1.85;
 
-if ($sexo == "masculino") {
+if ($sexo == 1 ) {
     $pesoideal = (72.7 * $altura) - 58;
     
 }
